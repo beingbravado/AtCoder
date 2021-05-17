@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 public class C {
     public static void main(String[] args) throws IOException {
@@ -24,16 +23,9 @@ public class C {
                         num= Math.max(num, dp[i-1][k]);
                     }
                 }
-                // dp[i][j]= dp[i-1][j]+num;
                 dp[i][j]= num+ a[j][i-1];
             }
         }
-        // for (int i = 0; i <= n; i++) {
-        //     for (int j = 0; j < 3; j++) {
-        //         System.out.print(dp[i][j]+" ");
-        //     }
-        //     System.out.println();
-        // }
         int max= dp[n][0];
         for(int i=0;i<3;i++) max= Math.max(max, dp[n][i]);
         System.out.println(max);
