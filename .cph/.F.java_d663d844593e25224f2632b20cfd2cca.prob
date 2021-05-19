@@ -1,0 +1,1 @@
+{"name":"Local: F","url":"e:\\JAVA\\AtCoder\\F.java","tests":[{"id":1621443486297,"input":"axyb\nbayxb","output":"axb"},{"id":1621444367018,"input":"abracadabra\navadakedavra","output":"aaadara"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\JAVA\\AtCoder\\F.java","group":"local","local":true}
